@@ -6,11 +6,13 @@ const SlotMachine = (props) => {
   // //   const z = "😀";
   //   const z = "😁";
 
-  console.log(props);
+    // console.log(props);
 
-  const x = props.x;
-  const y = props.y;
-  const z = props.z;
+  //   const x = props.x;
+  //   const y = props.y;
+  //   const z = props.z;
+
+  const { x, y, z } = props;
 
   return (
     <>
